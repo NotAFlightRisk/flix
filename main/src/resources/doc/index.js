@@ -52,7 +52,7 @@ function initCopyLinks() {
             const msgNode = document.createElement("div");
             msgNode.classList.add("copy-link-msg");
             msgNode.textContent = msg;
-            msgNode.style.position = "absolute";
+            msgNode.style.position = "fixed";
             msgNode.style.top = `${e.clientY}px`;
             msgNode.style.left = `${e.clientX}px`;
             document.body.append(msgNode);
